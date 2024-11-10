@@ -6,6 +6,7 @@ import { StyleCardsComponent } from './components/style-cards/style-cards.compon
 import { FooterComponent } from './components/footer/footer.component'; // Adjust the path if necessary
 import { SponsorsComponent } from './components/sponsors/sponsors.component';
 import { SpeakerComponent } from './components/speaker/speaker.component';
+import { PrathamComponent } from './pratham/pratham.component';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -17,6 +18,7 @@ import { SpeakerComponent } from './components/speaker/speaker.component';
     FooterComponent,
     SponsorsComponent,
     SpeakerComponent,
+    PrathamComponent,
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'] // Ensure this is correct
