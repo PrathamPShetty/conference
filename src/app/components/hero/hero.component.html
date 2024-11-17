@@ -1,40 +1,32 @@
-<div class="bg-gray-100">
+<div class="bg-black"> <!-- Changed bg-black-100 to bg-black -->
     <!-- Header Section -->
     <header class="flex flex-wrap items-center justify-between p-4 bg-gray-800 text-white">
         <div class="flex items-center justify-between w-full sm:w-auto">
             <!-- Logo -->
             <img class="h-10" src="assets/GitHub-Universe-logo-2020-white.svg" alt="GitHub Universe Logo">
-            <!-- Countdown for medium and larger screens -->
-            <div class="hidden md:flex items-center space-x-4 ml-auto">
-                <div class="text-sm">December 8 - 10</div>
-                <div class="countdown-time text-sm">
-                    <span class="d">22</span>d ::
-                    <span class="h">1</span>h ::
-                    <span class="m">48</span>m ::
-                    <span class="s">6</span>s
-                </div>
+        </div>
+        
+        <!-- Countdown and Date for medium and larger screens, aligned to the right -->
+        <div class="hidden md:flex items-center space-x-4 ml-auto justify-end">
+            <div class="text-sm">December 8 - 10</div>
+            <div class="countdown-time text-sm">
+                <span class="d">22</span>d ::
+                <span class="h">1</span>h ::
+                <span class="m">48</span>m ::
+                <span class="s">6</span>s
             </div>
         </div>
-        <!-- Navigation -->
-        <nav class="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-6 w-full sm:w-auto mt-4 sm:mt-0">
-            <a class="text-white hover:underline" href="#">Schedule</a>
-            <a class="text-white hover:underline" href="#">Speakers</a>
-            <a class="text-white hover:underline" href="#">Experience</a>
-            <a class="text-white hover:underline" href="#">Sponsors</a>
-            <a class="text-white hover:underline" href="#">FAQ</a>
-            <a class="text-white hover:underline" href="#">Subscribe</a>
-        </nav>
     </header>
 
     <!-- Content Section -->
-    <section class="content py-10">
+    <section class="content py-10 bg-black bg-cover bg-center" style="background-image: url('/assets/pattern-light.svg');">
         <div class="container mx-auto text-center px-4 sm:px-8 lg:px-16">
             <!-- Title -->
-            <h1 class="text-xl sm:text-2xl lg:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
-                GitHub Universe 2020
+            <h1 class="text-xl sm:text-5xl lg:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500">
+                AI Conference 2025
             </h1>
             <!-- Description -->
-            <p class="mt-4 text-xs sm:text-sm lg:text-base leading-relaxed">
+            <p class="mt-4 text-xs sm:text-sm lg:text-base leading-relaxed text-white"> <!-- Added text-white here -->
                 This page does not exist. Please use the navigation to get to a working page. If you got here due to an error on our part,
                 <a class="underline text-blue-600 hover:text-blue-700" href="#">please let us know.</a>
             </p>
@@ -44,7 +36,4 @@
             </a>
         </div>
     </section>
-    
-    
-    
 </div>
